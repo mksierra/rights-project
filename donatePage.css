@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Crimson Text', serif;
+  background-color: #C1DBDA;
+  color: #F2987D;
+  background-image: url("map.png");
+}
+
+.Top-Section {
+color: #F2987D;
+}
+
+h1 {
+  text-align: center;
+font-size: 50px;
+}
+
+.Images {
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.pic1 {
+  height:250px;
+  width:250px;
+  margin-bottom: 12px;
+  box-shadow: 6px 6px;
+  object-fit:cover;
+}
+
+.pic2 {
+  height:250px;
+  width:250px;
+  margin-bottom: 12px;
+  box-shadow: 6px 6px;
+  object-fit:cover;
+}
+
+.pic3 {
+  height:250px;
+  width:250px;
+  margin-bottom: 12px;
+  box-shadow: 6px 6px;
+  object-fit:cover;
+}
+
+.pic4 {
+  height:250px;
+  width:250px;
+  margin-bottom: 12px;
+  box-shadow: 6px 6px;
+  object-fit:cover;
+}
+
+.pic5 {
+  height:250px;
+  width:250px;
+  margin-bottom: 12px;
+  box-shadow: 6px 6px;
+  object-fit:cover;
+}
+
+.pic6 {
+  height:250px;
+  width:250px;
+  margin-bottom: 12px;
+  box-shadow: 6px 6px;
+  object-fit:cover;
+}
+
+.pic7 {
+  height:250px;
+  width:250px;
+  margin-bottom: 12px;
+  box-shadow: 6px 6px;
+  object-fit:cover;
+}
+
+.pic8 {
+  height:250px;
+  width:250px;
+  margin-bottom: 12px;
+  box-shadow: 6px 6px;
+  object-fit:cover;
+}
+
+.homeToggle{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.home {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
