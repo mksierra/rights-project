@@ -1,0 +1,206 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body{font-family: 'Crimson Text', serif;
+  background-color: #C1DBDA;
+  color: #F2987D;
+}
+
+.Title{
+  text-align: center;
+  font-size: 60;
+  margin-top: 10px;
+}
+
+.wholeSec{
+  display:flex;
+}
+
+.aboutSection{
+  margin-top: 5px;
+  margin-left: 25px;
+  height:50px;
+  width: 900px;
+  border:2px solid #F2987D;
+  background: #fffff0;
+}
+
+.leftSide{
+  width:900px;
+}
+
+.rightSide{
+  flex-direction: column;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 40px;
+  height: 800px;
+  width: 285px;
+}
+.aboutTitle{
+  display: inline-block;
+  margin-left: 10px;
+}
+.shortBio{
+  display: inline;
+}
+
+.dropDownTitle{
+  display:inline;
+  margin-left: 10px;
+}
+.RightsAssist{
+  margin-top: 10px;
+  margin-left: 25px;
+  height: 650px;
+  width: 900px;
+  border: 2px solid #F2987D;
+  background: #fffff0;
+}
+.assist{
+  margin: 10px;
+}
+
+.gallery{
+
+}
+
+.img1{
+  height:301px;
+  width:286px;
+  object-fit: cover;
+}
+.img2{
+  height:301px;
+  width:286px;
+  object-fit: cover;
+}
+.img3{
+  height:301px;
+  width:286px;
+  object-fit: cover;
+}
+.img4{
+  height:301px;
+  width:286px;
+  object-fit: cover;
+}
+.img5{
+  height:301px;
+  width:286px;
+  object-fit: cover;
+}
+
+.HowToHelp{
+  border:2px solid #F2987D;
+  background: #fffff0;
+  margin-top: 15px;
+  margin-left: 20px;
+  height: 300px;
+  width: 290px;
+}
+
+.personalStories{
+  border:2px solid #F2987D;
+  background: #fffff0;
+  margin-top: 15px;
+  margin-left: 20px;
+  height: 300px;
+  width: 290px;
+  overflow-y:scroll;
+}
+
+.appendP{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.greyColor{
+  width: 100%;
+  height: 300px;
+  background: #E8E8E8;
+  border:2px solid #E8E8E8;
+}
+
+/* SLIDESHOW */
+body, html {
+  height: 100%;
+}
+#slideshow {
+  margin-left: 20px;
+    position: relative;
+    width: 290px;
+    height: 305px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    border: 2px solid #F2987D;
+}
+
+#slideshow > div {
+    position: absolute;
+}
+
+/* Donate Button */
+
+a {
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+  text-decoration: none;
+}
+
+.donate {
+  background: #F2987D;
+  background: -webkit-linear-gradient(top, transparent 0%, rgba(0,0,0,0.4) 100%),
+              -webkit-linear-gradient(left, lighten(#00684d, 15%) 0%, #00684d 50%, lighten(#00684d, 15%) 100%);
+  background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.4) 100%),
+              linear-gradient(to right, lighten(#00684d, 15%) 0%, #00684d 50%, lighten(#00684d, 15%) 100%);
+  background-position: 0 0;
+  background-size: 200% 100%;
+  border-radius: 4px;
+  color: #fff;
+  padding: 5px 5px 5px 5px;
+  text-shadow: 1px 1px 5px #666;
+  -webkit-transition: all 800ms;
+  transition: all 800ms;
+  text-align: center;
+
+  &:after {
+    border-left: 1px solid darken(#00684d, 5%);
+    color: darken(#00684d, 10%);
+    content: "\f004";
+    font: 20px "FontAwesome";
+    padding: 10px 0;
+    padding-left: 15px;
+    position: absolute;
+    right: 16px;
+    top: 7px;
+    -webkit-transition: all 600ms 200ms;
+    transition: all 600ms 200ms;
+  }
+
+  &:hover {
+    background-position: -100% 0;
+
+    &:after {
+      border-left: 1px solid lighten(#00684d, 5%);
+      color: #fff;
+      text-shadow: 0 0 10px #000;
+    }
+  }
+
+.parallax {
+  /* The image used */
+  background-image: url("blue.jpg");
+
+  /* Set a specific height */
+  height: 1000px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+}
